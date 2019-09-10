@@ -1,7 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
 .App {
   text-align: center;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
 }
 
+.App h1 {
+  font-size: 16rem;
+  font-weight: bold;
+  color: #efefef;
+  text-transform: uppercase;
+
+}
+
+  .App h2 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #a3a1d4;
+    font-size: 5rem;
+  }
+
+  .App h2 a{
+
+    color: #3f37ff61;
+  }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
